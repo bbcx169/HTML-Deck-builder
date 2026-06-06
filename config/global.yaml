@@ -1,5 +1,6 @@
 page:
   lang: zh-TW
+  theme: modern-magazine
   favicon: "config/assets/fire-services-logo.svg"
 
 instructor:

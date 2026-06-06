@@ -1196,6 +1196,7 @@ function build(courseDir) {
 
   const replacements = {
     '{{PAGE_LANG}}': cfg.page?.lang || 'zh-TW',
+    '{{PAGE_THEME}}': cfg.page?.theme || 'modern-magazine',
     '{{PAGE_TITLE}}': cfg.page?.title || 'HTML Deck Presentation',
     '{{FAVICON}}': cfg.page?.favicon || '',
     '{{SLIDES}}': slidesHtml,

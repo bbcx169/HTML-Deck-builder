@@ -7,6 +7,7 @@
 
 page:
   lang: zh-TW
+  theme: modern-magazine  # Optional: modern-magazine, dark-cyberpunk, nordic-frost, forest-retreat, warm-terracotta, royal-navy, sakura-blossom, monochrome-sleek, sunset-glow, academic-editorial
   favicon: "https://deanlin.net/images/favicon.png"
   title: "課程標題示意 — 從主題介紹到實作應用"
   badge: "課程分類示意 · 主題標籤示意"

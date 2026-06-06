@@ -70,3 +70,58 @@ Use the global flow below:
 8. **Detail Slides**: process flows, comparison tables, or code prompt blocks representing section 2 content.
 9. **Summary**: three key takeaways from the course.
 10. **Back Cover**: closing slide with emblem and social links.
+
+---
+
+## Visual Themes Catalog
+
+When generating a presentation, the compiler reads the `page.theme` property inside `config.yaml`. The deck supports 10 carefully designed visual style themes:
+
+1. **`modern-magazine`** (Default):
+   - **Aesthetic**: Editorial, stark white background, black text, vibrant red accents (`#e10600`). Custom serif/sans typography (`Outfit` + `Inter`).
+   - **Vibe**: Clean, professional, bold, and modern.
+   - **Best suited for**: Corporate presentations, branding updates, modern magazines, new product announcements.
+2. **`dark-cyberpunk`**:
+   - **Aesthetic**: Dark mode (`#0c0d14`), high-contrast neon cyan (`#00f0ff`) and hot pink (`#ff007f`) accents. Futuristic tech fonts (`Orbitron` + `Space Grotesk`).
+   - **Vibe**: Tech-forward, high-energy, immersive.
+   - **Best suited for**: Developer pitches, software architecture, artificial intelligence, gaming, cybersecurity.
+3. **`nordic-frost`**:
+   - **Aesthetic**: Cool light-gray/blue background (`#f4f7f6`), navy text (`#1d2d44`), icy blue accents (`#3a86c8`). Minimalist crisp fonts (`Outfit` + `Inter`).
+   - **Vibe**: Calming, clean, professional, and refreshing.
+   - **Best suited for**: Healthcare, medical research, environment/sustainability, financial reports, architectural portfolios.
+4. **`forest-retreat`**:
+   - **Aesthetic**: Sage-tinted off-white background (`#fafaf7`), forest green accents (`#2d6a4f`), dark green text. Balanced organic fonts (`Space Grotesk` + `Inter`).
+   - **Vibe**: Natural, organic, eco-friendly, relaxing.
+   - **Best suited for**: Wellness, organic products, agriculture, outdoor tourism, sustainability initiatives.
+5. **`warm-terracotta`**:
+   - **Aesthetic**: Soft warm beige background (`#faf6f0`), earthy espresso text (`#2b1a13`), terracotta orange accents (`#c97a53`). Minimalist balanced fonts (`Outfit` + `Inter`).
+   - **Vibe**: Handcrafted, warm, humanistic, and cozy.
+   - **Best suited for**: Lifestyle brands, coffee shops, artisan crafts, design studios, humanities, storytelling.
+6. **`royal-navy`**:
+   - **Aesthetic**: Luxurious navy blue background (`#0f1a2c`), luxury gold accents (`#d4af37`), pale gold text. Elegant serif titles (`Playfair Display` + `Inter`).
+   - **Vibe**: High-end, executive, sophisticated.
+   - **Best suited for**: Executive business reviews, luxury branding, investment proposals, formal graduation ceremonies.
+7. **`sakura-blossom`**:
+   - **Aesthetic**: Sweet pale pink background (`#fffbfb`), dark chocolate text (`#331d23`), cherry pink accents (`#ff758c`). Playful geometric fonts (`Outfit` + `Inter`).
+   - **Vibe**: Sweet, friendly, energetic, and cute.
+   - **Best suited for**: Spring festivals, cosmetics, bakery/food blogs, kids education, wedding/personal albums.
+8. **`monochrome-sleek`**:
+   - **Aesthetic**: Charcoal black background (`#121212`), stark white text and accents. Sleek hardware fonts (`Space Grotesk` + `Inter`).
+   - **Vibe**: Ultra-minimalist, industrial, high-fashion.
+   - **Best suited for**: Architectural designs, design agency portfolios, photography showcases, hardware specifications.
+9. **`sunset-glow`**:
+   - **Aesthetic**: Warm peach background (`#fff9f2`), rich sunset orange (`#f77f00`) and fiery red accents. Warm energetic typography (`Outfit` + `Inter`).
+   - **Vibe**: Dynamic, optimistic, warm, and inviting.
+   - **Best suited for**: Travel agencies, summer festivals, energetic startups, creative campaigns, marketing.
+10. **`academic-editorial`**:
+    - **Aesthetic**: Warm cream/paper background (`#fdfbf7`), deep burgundy accent (`#8b0000`), elegant charcoal text. Academic serif fonts (`Playfair Display` + `Lora`).
+    - **Vibe**: Intellectual, historical, prestigious, and timeless.
+    - **Best suited for**: Scientific research, literature studies, history lectures, graduation defenses, publishing houses.
+
+### Theme Recommendation Protocol
+
+When assisting the user in creating a slide deck, the AI Agent MUST:
+1. Analyze the core topic, audience, and mood of the presentation.
+2. Select and recommend exactly **3** themes from the catalog above that are the absolute best match for the topic (explaining why they fit).
+3. Provide instructions on how to set the selected theme by adding `page.theme: [theme-name]` in `config.yaml`.
+

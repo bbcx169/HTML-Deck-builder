@@ -1,5 +1,6 @@
 page:
   lang: zh-TW
+  theme: dark-cyberpunk
   title: "Vibe Coding 實戰簡報 — 打造長期工具"
   badge: "AI 實戰 · 模板思維"
   hero_title: "用模板思維 + Agent Skills<br>把 AI 輸出變成長期工具"
