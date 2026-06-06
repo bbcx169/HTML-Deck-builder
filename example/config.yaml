@@ -1,0 +1,17 @@
+page:
+  lang: zh-TW
+  title: "Vibe Coding 實戰簡報 — 打造長期工具"
+  badge: "AI 實戰 · 模板思維"
+  hero_title: "用模板思維 + Agent Skills<br>把 AI 輸出變成長期工具"
+  subtitle: "本簡報帶你了解如何利用 Vibe Coding 快速打造個人與團隊的工具箱，並利用自動化編譯器快速生成漂亮的 HTML 簡報。"
+
+quotes:
+  opening:
+    text: "AI 時代下，Vibe Coding 的價值不在於生成速度，而在於你能不能把成果從「免洗餐具」變成「長期工具」。"
+  closing:
+    text: "多一分預防，就少一分災害；把正確知識帶回現場，就是守護城市安全的第一步。"
+
+footer:
+  cta: "觀看完整教學影片：https://youtu.be/0pZri5f_tfk"
+  copyright: "© 2026 Dean Lin & bbcx169"
+  show_socials: true

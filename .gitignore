@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.tmp/
+tmp/
+
+# Ignore compiled html in examples, keeping it clean
+example/index.html
+
+# Ignore system-generated metadata files
+*.metadata.json
+**/*.metadata.json

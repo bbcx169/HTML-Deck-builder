@@ -1,0 +1,47 @@
+page:
+  lang: zh-TW
+  favicon: "config/assets/fire-services-logo.svg"
+
+instructor:
+  name: "李宇松"
+  tagline: "新北市政府消防局 · 危險物品管理科 · 安全管理 · 防災宣導"
+  bio: "中央警察大學消防學系、臺灣大學地理環境資源學系碩士"
+  avatar: "config/assets/rhino-captain-avatar"
+  stats:
+    - text: "⚠️ 公共危險物品"
+      url: "https://www.fire.ntpc.gov.tw/PageDoc/Detail?fid=69&id=1114"
+    - text: "🔥 液化石油氣"
+      url: "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=126015"
+    - text: "♨️ 燃氣熱水器"
+      url: "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=126008"
+    - text: "🎆 爆竹煙火"
+      url: "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=126003"
+  socials:
+    - platform: "消防局官網"
+      url: "https://www.fire.ntpc.gov.tw/"
+    - platform: "消防發爾麵"
+      url: "https://www.facebook.com/NTPC119"
+    - platform: "LINE帳號"
+      url: "https://line.me/R/ti/p/@esf8311y"
+    - platform: "防災宣導網"
+      url: "https://www.dsc.ntpc.gov.tw/"
+
+quotes:
+  opening:
+    text: "防災不是口號，而是把風險管理落實到每一次用火、用電與用氣的日常選擇。"
+  closing:
+    text: >
+      多一分預防，就少一分災害；<br>
+      把正確知識帶回現場，就是守護城市安全的第一步。
+
+
+seo:
+  site_name: "新北市政府消防局"
+  type: "article"
+  title: "新北市政府消防局防災課程｜危險物品與居家安全宣導"
+  description: "由新北市政府消防局危險物品管理科李宇松科長分享公共危險物品、爆竹煙火、液化石油氣、燃氣熱水器與防災安全重點。"
+
+footer:
+  cta: "追蹤新北市政府消防局官方平台，為您提供更多防災最新資訊"
+  copyright: "© 新北市政府消防局"
+  show_socials: true

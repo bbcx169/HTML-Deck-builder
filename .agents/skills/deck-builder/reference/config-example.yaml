@@ -1,0 +1,57 @@
+# ===================================================
+# HTML Deck Builder — YAML Config Example
+# Each course directory must contain:
+# - <course-dir>/config/global.yaml  (instructor, socials, footer, favicon)
+# - <course-dir>/config.yaml         (course overrides: page title, subtitle, quotes, etc.)
+# ===================================================
+
+page:
+  lang: zh-TW
+  favicon: "https://deanlin.net/images/favicon.png"
+  title: "課程標題示意 — 從主題介紹到實作應用"
+  badge: "課程分類示意 · 主題標籤示意"
+  hero_title: "從核心概念理解<br>到實際案例應用"
+  subtitle: "這裡可放課程副標示意，簡要說明學習重點、適合對象與完成後可獲得的能力。"
+
+instructor:
+  name: "示意講師名稱 Example Instructor"
+  tagline: "講師職稱示意 · 專長領域示意"
+  bio: >
+    這裡可放講師簡介示意文字，用來介紹背景、實務經驗與授課風格。<br>
+    建議聚焦在學員最關心的價值。
+  avatar: "config/assets/author"
+  stats:
+    - text: "📚 代表作品或經歷 **X** 項"
+      url: "https://www.tenlong.com.tw/products/9786264142083"
+    - text: "🎤 累積授課或分享 **X** 場"
+      url: "https://www.youtube.com/@dlcorner"
+    - text: "✍️ 發表內容或文章 **X** 篇"
+      url: "https://medium.com/@dean-lin"
+  socials:
+    - platform: "Medium"
+      url: "https://medium.com/@dean-lin"
+    - platform: "Facebook"
+      url: "https://www.facebook.com/deanlinbao"
+    - platform: "Threads"
+      url: "https://www.threads.com/@deanlin5288"
+    - platform: "YouTube"
+      url: "https://www.youtube.com/@dlcorner"
+    - platform: "GitHub"
+      url: "https://github.com/dean9703111"
+
+quotes:
+  opening:
+    text: "這裡可放簡報開場引言，傳達主題精神與核心價值。"
+  closing:
+    text: "這裡可放簡報結尾引言，總結重點或做延伸啟發。"
+
+footer:
+  cta: "這裡可放簡報結束後的 Call-to-Action 提示"
+  copyright: "© 2026 Your Name"
+  show_socials: true
+
+seo:
+  site_name: "網站名稱示意"
+  title: "課程簡報 SEO 標題"
+  description: "簡要介紹此簡報的主題與對象。"
+  url: "https://your-domain.example/course/example/"

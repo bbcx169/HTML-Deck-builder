@@ -1,0 +1,28 @@
+{
+  "name": "html-deck-builder",
+  "version": "1.0.0",
+  "description": "Markdown 講稿 → HTML 簡報網頁。零依賴 Node.js 建置。",
+  "main": "index.js",
+  "scripts": {
+    "build": "node .agents/skills/deck-builder/scripts/build.mjs",
+    "build:example": "node .agents/skills/deck-builder/scripts/build.mjs example",
+    "dev": "node .agents/skills/deck-builder/scripts/dev.mjs",
+    "dev:example": "node .agents/skills/deck-builder/scripts/dev.mjs example",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbcx169/HTML-Deck-builder.git"
+  },
+  "keywords": [
+    "html",
+    "slide-deck",
+    "presentation",
+    "markdown",
+    "compiler",
+    "vibe-coding"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
